@@ -1,2 +1,15 @@
-# multimodal-rag
-Built a multimodal RAG application using Qwen 2.5 VL, ColPali, and QdrantDB for text and image-based retrieval. Leveraged ColPali for embeddings, Qwen 2.5 VL for vision-language understanding, and QdrantDB for efficient vector storage, enabling accurate, context-aware responses.
+# 🚀 Multimodal RAG Application
+
+A **Retrieval-Augmented Generation (RAG) system** integrating **Qwen 2.5 VL, ColPali, and QdrantDB** to enable **multimodal search and retrieval** for both text and images.
+
+## 📌 Features
+- **Multimodal Query Support** – Retrieves information based on **both text and images**.
+- **Efficient Vector Search** – Uses **ColPali embeddings** and **QdrantDB** for fast retrieval.
+- **Vision-Language Understanding** – Qwen 2.5 VL processes **image-text relationships** for accurate context-aware responses.
+- **Scalable & Optimized** – Designed for **high-performance** retrieval in various domains.
+
+## 🛠️ Tech Stack
+- **LLM**: [Qwen 2.5 VL](https://huggingface.co/Qwen)
+- **Embedding Model**: [ColPali](https://huggingface.co/ColPali)
+- **Vector Store**: [QdrantDB](https://qdrant.tech/)
+- **Frontend**: Streamlit
