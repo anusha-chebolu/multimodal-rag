@@ -1,14 +1,26 @@
-# 🚀 Multimodal RAG Application
+# Multimodal Information Retrieval Chatbot
 
-A **Retrieval-Augmented Generation (RAG) system** integrating **Qwen 2.5 VL, ColPali, and QdrantDB** to enable **multimodal search and retrieval** for both text and images.
+This repository hosts a multimodal information retrieval system that integrates cutting-edge technologies such as Retrieval Augmented Generation (RAG), Qwen 2.5VL, ColPali, and Qdrant. The project is designed to embed product information documents and store their vector representations, enabling efficient and accurate retrieval.
 
-## 📌 Features
-- **Multimodal Query Support** – Retrieves information based on **both text and images**.
-- **Efficient Vector Search** – Uses **ColPali embeddings** and **QdrantDB** for fast retrieval.
-- **Vision-Language Understanding** – Qwen 2.5 VL processes **image-text relationships** for accurate context-aware responses.
+## Features
+- **Multimodal Information Retrieval:** Combines text and other modalities for enhanced query responses.
+- **RAG Integration:** Uses retrieval augmented generation techniques to deliver more contextually relevant answers.
+- **Qwen 2.5VL Embeddings:** Leverages Qwen 2.5VL for creating robust semantic embeddings of product information.
+- **ColPali:** Utilizes ColPali for embedding product documents effectively.
+- **Qdrant Vector Storage:** Stores and manages embedding vectors using Qdrant for fast similarity search and retrieval.
 
-## 🛠️ Tech Stack
-- **LLM**: [Qwen 2.5 VL](https://huggingface.co/Qwen)
-- **Embedding Model**: [ColPali](https://huggingface.co/ColPali)
-- **Vector Store**: [QdrantDB](https://qdrant.tech/)
-- **Frontend**: Streamlit
+## Project Overview
+This project was built to address the challenge of retrieving detailed product information across multiple modalities. By embedding product information documents and storing them as vectors in Qdrant, the system facilitates rapid and context-aware retrieval, making it ideal for chatbot applications and other interactive search solutions.
+
+## Installation
+
+### Prerequisites
+- Python 3.8 or higher
+- Git
+- Virtual environment (recommended)
+
+### Setup Instructions
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/your-username/multimodal-information-retrieval-chatbot.git
+   cd multimodal-information-retrieval-chatbot
